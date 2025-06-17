@@ -131,7 +131,7 @@ async def async_setup_entry(
                 SensorEntityDescription(
                     key="WATER_USAGE_DAILY_AVERAGE",
                     name="Water usage daily average",
-                    state_class=SensorStateClass.MEASUREMENT,
+                    state_class=SensorStateClass.TOTAL_INCREASING,
                     device_class=SensorDeviceClass.WATER,
                 ),
             ),
