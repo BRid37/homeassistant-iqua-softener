@@ -1,13 +1,16 @@
 {
-  "domain": "iqua_softener",
-  "name": "iQua Softener",
-  "documentation": "https://github.com/arturzx/homeassistant-iqua-softener/",
-  "issue_tracker": "https://github.com/arturzx/homeassistant-iqua-softener/issues",
+  "domain": "iqua_water_softener",
+  "name": "iQua Water Softener",
+  "version": "1.1.0",
+  "documentation": "https://github.com/BRid37/homeassistant-iqua-softener/",
+  "issue_tracker": "https://github.com/BRid37/homeassistant-iqua-softener/issues",
   "dependencies": [],
-  "codeowners": ["@arturzx"],
+  "after_dependencies": [],
+  "codeowners": ["@BRid37"],
   "requirements": ["iqua_softener~=1.0.2"],
   "config_flow": true,
   "iot_class": "cloud_polling",
-  "loggers": ["iqua"],
-  "version": "1.0.0"
+  "loggers": ["iqua_water_softener", "iqua"],
+  "dhcp": [],
+  "is_built_in": false
 }
