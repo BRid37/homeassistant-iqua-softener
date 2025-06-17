@@ -1,6 +1,6 @@
 from typing import Final
 
-DOMAIN: Final = "iqua_softener"
+DOMAIN = "iqua_water_softener"
 
 CONF_USERNAME: Final = "username"
 CONF_PASSWORD: Final = "password"
