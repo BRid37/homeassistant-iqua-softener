@@ -1,5 +1,4 @@
 from typing import Final
-from .const import DOMAIN
 
 DOMAIN = "iqua_water_softener"
 
